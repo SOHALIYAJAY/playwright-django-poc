@@ -78,5 +78,15 @@ This PoC demonstrates that Playwright can effectively replace Selenium for Djang
 page.goto("http://127.0.0.1:8000")
 page.click("#btn")
 assert page.locator("#message").inner_text() == "Button Clicked!"
+```
 
 
+## Output Screenshots
+
+### Terminal Output
+
+![Terminal Output](terminal_output.png)
+
+### Browser Interaction
+
+![Browser UI](test_result.png)

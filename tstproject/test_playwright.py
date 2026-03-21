@@ -4,6 +4,7 @@ def test_homepage():
     print("Starting Playwright Test...")
 
     with sync_playwright() as p:
+        
         # Launch browser (visible for demo)
         browser = p.chromium.launch(headless=False)
         page = browser.new_page()
