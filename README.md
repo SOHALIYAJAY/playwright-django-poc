@@ -85,8 +85,8 @@ assert page.locator("#message").inner_text() == "Button Clicked!"
 
 ### Terminal Output
 
-![Terminal Output](terminal_output.png)
+![Terminal Output](screenshots/terminal_output.png)
 
 ### Browser Interaction
 
-![Browser UI](test_result.png)
+![Browser UI](screenshots/test_result.png)
